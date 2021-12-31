@@ -2,9 +2,9 @@
 *Projeto desenvolvido na disciplina de Estrutura de Dados I, foi utilizado o sistema operacional Windows 7, para o funcionamento do projeto, todos os arquivos.c e arquivos.h são compilados executando o comando make no terminal, então o makefile será executado realizando a compilação de todos os códigos e gerando um executável para o projeto: **progr**, para utilizar o projeto é necessário informar parâmetros de entrada via argumentos pela linha de comando no terminal, cmd ou PowerShell, exemplo:*
 
 ### ./progr -e DiretórioEntrada -f nome_arquivo.geo -q SubDiretório/nome_arquivo.qry -o DiretórioSaida
-
-*Em resumo o projeto recebe um arquivo .geo que contém coordenadas para geração de retângulos e circulos e um arquivo .qry que contém consultas para serem realizadas com estes dados informados no arquivo .geo, o projeto utiliza as seguintes estruturas de dados: **Arvore Binária**, **Arvore KD** e **Lista Dinâmica**, o projeto gera no diretório de saída arquivos .svg e .txt para mostrar os resultados das consultas realizadas ao longo da execução. Alguns exemplos de consultas são remoções de retângulos, deslocamento de circulos(com animação) para dentro de retângulos de acordo com a menor distância entre eles, calculo de nivel de exposição usando polígonos para saber quando um circulo está atras de alguma "parede"(algum segmento de algum retângulo)*
 ---
+*Em resumo o projeto recebe um arquivo .geo que contém coordenadas para geração de retângulos e circulos e um arquivo .qry que contém consultas para serem realizadas com estes dados informados no arquivo .geo, o projeto utiliza as seguintes estruturas de dados: **Arvore Binária**, **Arvore KD** e **Lista Dinâmica**, o projeto gera no diretório de saída arquivos .svg e .txt para mostrar os resultados das consultas realizadas ao longo da execução. Alguns exemplos de consultas são remoções de retângulos, deslocamento de circulos(com animação) para dentro de retângulos de acordo com a menor distância entre eles, calculo de nivel de exposição usando polígonos para saber quando um circulo está atras de alguma "parede"(algum segmento de algum retângulo)*
+
 *No arquivo.geo temos como argumentos:*
 - **cc** (Informa a cor de borda do(s) retângulo(s))
 - **cp** (Informa a cor de preenchimento do(s) retângulo(s)) e por fim 
